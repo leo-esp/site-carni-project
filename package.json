@@ -1,0 +1,28 @@
+{
+  "name": "static-carni-website",
+  "private": true,
+  "homepage": "http://186.209.113.101/public_html",
+  "version": "0.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && cp -r public dist/public && echo '/* /index.html 200' | cat >dist/_redirects",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.2",
+    "vite-tsconfig-paths": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "vite-plugin-progress": "^0.0.6"
+  }
+}

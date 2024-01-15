@@ -1,0 +1,8 @@
+export { BannerSection } from './BannerSection'
+export { Footer } from './Footer'
+export { LoaderWrap } from './LoaderWrap'
+export { MainHeader } from './MainHeader'
+export { OurStory } from './OurStory'
+export { WeOffer } from './WeOffer'
+export { InnerBanner } from './InnerBanner'
+export { Menu1 } from './Menu1'
